@@ -16,9 +16,9 @@ public class MOVESKELETON : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W))
             anim.SetTrigger("WALK");
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.R))
             anim.SetTrigger("RUN");
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.D))
             anim.SetTrigger("DEAD");
 
     }
